@@ -6,5 +6,33 @@ import { Component } from '@angular/core';
   styleUrl: './producto.component.scss'
 })
 export class ProductoComponent {
+  products:any[]=[
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+    {id:1,nombre:"teclado",precio:394.96, categoria_id:5, stock:12,estado:"COMPLETADO"},
+   
+    
+  
+  ];
+  cols:any[]=[]
+  OpenNew(){
+  }
+editProduct(prod:any){
 
+}
+deleteProduct(prod:any){
+
+}
 }
